@@ -1,0 +1,29 @@
+.container_navbarmenu {
+    margin: 0;
+  }
+  .container_navbarmenu ul {
+    background-color: black;
+    text-align: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 26px;
+    overflow: hidden;
+  }
+  .container_navbarmenu ul li {
+    text-transform: uppercase;
+    display: inline;
+    padding: inherit;
+  }
+  .container_navbarmenu ul li a {
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 13px;
+    color:white;
+    display: inline;
+    font-family: times, "Times New Roman",serif;
+    text-transform: bold;
+  }
+  .container_navbarmenu ul li:hover {
+    background-color: red;
+    transition: all 0.5s ease-in-out;
+  }

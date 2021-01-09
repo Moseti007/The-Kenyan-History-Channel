@@ -1,0 +1,115 @@
+body{
+    /* background-image: url('/images/maa.jpg'); */
+    max-width: px;
+    margin: auto;
+    align-items: center;
+    background-size: cover;
+    background-color: white;
+}
+   
+#image{
+    border-radius: 130px;
+    margin: 0;
+    float: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container_navbarmenu {
+    margin: 0;
+  }
+  .container_navbarmenu ul {
+    background-color: black;
+    text-align: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 26px;
+    overflow: hidden;
+  }
+  .container_navbarmenu ul li {
+    text-transform: uppercase;
+    display: inline;
+    padding: inherit;
+  }
+  .container_navbarmenu ul li a {
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 13px;
+    color:white;
+    display: inline;
+    font-family: times, "Times New Roman",serif;
+    text-transform: bold;
+  }
+  .container_navbarmenu ul li:hover {
+    background-color: red;
+    transition: all 0.5s ease-in-out;
+  }
+  h1{
+      text-align: center;
+      color:black;
+      font-family: 'Times New Roman', Times, serif;
+      position: -webkit-sticky; /* Safari */
+      position: sticky;
+      top: 0;
+      background-color: green;
+      border: 2px solid green;
+      border-radius: 50px;
+  }
+  p{
+      font-size: 1.5em;
+      font-family: times, serif;
+      margin: 1px black;
+      color:black;
+      text-align: left;
+  }
+  #para1{
+      float: right;
+      padding: 20px;
+      width: 70%;
+      background-color: #f1f1f1;
+      height: 700px;
+  }
+  #para2{
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px;
+}
+  #para3{
+      float: right;
+      padding: 20px;
+      width: 70%;
+      background-color: #f1f1f1;
+      height: 600px;
+  }
+  #para4{
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px;
+}
+#leo{
+  width: 100%;
+  height: 100%;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+  /* .para{
+        width: 1000px;
+        height: 250px;
+        padding: 1px;
+        border: 5px white;
+        border-style: double;
+        border-radius: 12px;
+        margin: 0;
+        text-align: center; 
+  } */
